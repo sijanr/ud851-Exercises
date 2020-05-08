@@ -29,7 +29,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter a query, then click Search"
-        android:textSize="22sp" />
+        android:textSize="22sp"
+        android:inputType="text"
+        android:ems="8"
+        android:imeOptions="actionSearch"/>
 
     <TextView
         android:id="@+id/tv_url_display"
