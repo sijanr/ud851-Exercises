@@ -80,6 +80,8 @@ public class NetworkUtils {
 
             boolean hasInput = scanner.hasNext();
             if (hasInput) {
+                in.close();
+                scanner.close();
                 return scanner.next();
             } else {
                 return null;
