@@ -16,12 +16,13 @@
 package com.example.android.recyclerview;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * We couldn't come up with a good name for this class. Then, we realized
@@ -59,8 +60,7 @@ public class GreenAdapter extends RecyclerView.Adapter<GreenAdapter.NumberViewHo
      * @param viewGroup The ViewGroup that these ViewHolders are contained within.
      * @param viewType  If your RecyclerView has more than one type of item (which ours doesn't) you
      *                  can use this viewType integer to provide a different layout. See
-     *                  {@link android.support.v7.widget.RecyclerView.Adapter#getItemViewType(int)}
-     *                  for more details.
+     *
      * @return A new NumberViewHolder that holds the View for each list item
      */
     @Override
